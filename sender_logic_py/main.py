@@ -14,7 +14,7 @@ headers = {
 
 scale = 58
 
-wait_time = 0.5
+wait_time = 0.1
 
 def recieve_input():
     response = requests.get(url=url_input)
