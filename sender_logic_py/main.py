@@ -28,21 +28,21 @@ def recieve_input():
             pyautogui.rightClick(data["x"], data["y"])
 
         if data["action"] == "ArrowUp":
-            pyautogui.press("up")
+            pyautogui.hold("up")
             
         if data["action"] == "ArrowDown":
-            pyautogui.press("down")
+            pyautogui.hold("down")
 
         if data["action"] == "ArrowLeft":
-            pyautogui.press("left")
+            pyautogui.hold("left")
             
         if data["action"] == "ArrowRight":
-            pyautogui.press("right")
+            pyautogui.hold("right")
 
         if data["action"] == "Enter":
             pyautogui.press("enter")
 
-        if data["action"] == "Ctrl":
+        if data["action"] == "Control":
             pyautogui.press("ctrl")                                                
 
 def send_data(json_data):
