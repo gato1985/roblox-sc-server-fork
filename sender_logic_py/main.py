@@ -5,8 +5,8 @@ import requests
 import time
 import math as m
 
-url = "https://roblox-sc-server.onrender.com/data"
-url_input = "https://roblox-sc-server.onrender.com/remote_inp"
+url = "https://roblox-sc-server-fork-1.onrender.com/data"
+url_input = "https://roblox-sc-server-fork-1.onrender.com/remote_inp"
 
 headers = {
     "Content-Type": "application/json"
