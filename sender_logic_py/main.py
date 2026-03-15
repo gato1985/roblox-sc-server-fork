@@ -12,9 +12,9 @@ headers = {
     "Content-Type": "application/json"
 }
 
-scale = 60
+scale = 59
 
-wait_time = 0.05
+wait_time = 0.1
 
 def recieve_input():
     response = requests.get(url=url_input)
