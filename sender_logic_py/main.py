@@ -38,6 +38,9 @@ def recieve_input():
             
         if data["action"] == "ArrowRight":
             pyautogui.press("right")
+
+        if data["action"] == "Enter":
+            pyautogui.press("enter")
                                                 
 
 def send_data(json_data):
