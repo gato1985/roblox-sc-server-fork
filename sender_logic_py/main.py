@@ -41,7 +41,9 @@ def recieve_input():
 
         if data["action"] == "Enter":
             pyautogui.press("enter")
-                                                
+
+        if data["action"] == "Ctrl":
+            pyautogui.press("ctrl")                                                
 
 def send_data(json_data):
     response = requests.post(url=url, json=json_data)
