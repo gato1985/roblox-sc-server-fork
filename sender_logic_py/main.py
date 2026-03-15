@@ -12,7 +12,7 @@ headers = {
     "Content-Type": "application/json"
 }
 
-scale = 62
+scale = 61
 
 wait_time = 0.1
 
