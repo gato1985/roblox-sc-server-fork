@@ -63,7 +63,7 @@ def generate_screen_data(screenshot):
 while True:
     time.sleep(wait_time)
     # Capture the screen
-    screenshot = pyautogui.screenshot()
+    screenshot = pyautogui.screenshot().convert("RGB")
 
     # Downscale the image
     screenshot = screenshot.transpose(Image.FLIP_TOP_BOTTOM)
