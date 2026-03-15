@@ -28,16 +28,16 @@ def recieve_input():
             pyautogui.rightClick(data["x"], data["y"])
 
         if data["action"] == "ArrowUp":
-            pyautogui.hold("up")
+            pyautogui.keyDown("up")
             
         if data["action"] == "ArrowDown":
-            pyautogui.hold("down")
+            pyautogui.keyDown("down")
 
         if data["action"] == "ArrowLeft":
-            pyautogui.hold("left")
+            pyautogui.keyDown("left")
             
         if data["action"] == "ArrowRight":
-            pyautogui.hold("right")
+            pyautogui.keyDown("right")
 
         if data["action"] == "Enter":
             pyautogui.press("enter")
